@@ -1,0 +1,9 @@
+.col2, .col3, .cols {float:left}
+.col1 {float:right}
+.col1 {width:276px}
+.col2 {width:585px}
+/* index.html */
+/* index-1.html */
+#page2 .cols {width:525px;padding-bottom:2px}
+
+

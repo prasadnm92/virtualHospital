@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+        <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+        <script type="text/javascript" src="js/jquery-1.4.2.js" ></script>
+        <script type="text/javascript" src="js/cufon-yui.js"></script>
+        <script type="text/javascript" src="js/cufon-replace.js"></script>  
+        <script type="text/javascript" src="js/Copse_400.font.js"></script>
+        <script type="text/javascript" src="js/imagepreloader.js"></script>
+        <script type="text/javascript">
+            preloadImages([
+            'images/menu1_active.gif',
+            'images/menu2_active.gif',
+            'images/menu3_active.gif',
+            'images/menu4_active.gif',
+            'images/menu5_active.gif']);
+        </script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/basecss.css">
+        
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#infolist").accordion({
+                    autoHeight: false
+                });
+            });
+        </script>
+        
+    </head>
+    <body>
+        
+        <div class="body1">
+	<div class="body2">
+		<div class="main">
+			<header>
+				<div class="wrapper">
+					<h1><a href="index.html" id="logo">First</a></h1>
+					<div class="right">
+						<nav>
+						
+						</nav>
+					</div>
+				</div>
+                           <!-- <nav id="menu">
+					<ul>
+						<li class="nav1"><a href="index.html">Home</a></li>
+						<li class="nav2"><a href="News.html">Health Tips</a></li>
+						<li class="nav3" id="active"><a href="Departments.html">Departments</a></li>
+						<li class="nav4"><a href="About us.html">About us</a></li>
+						<li class="nav5"><a href="Contact.html">Contact</a></li>
+					</ul>
+				</nav>-->
+                        </header>
+                </div>
+        
+        <div id="infolist">
+
+            <h3>Dr. Moira Queen  (MBBS, MD, D.cardio)</h3>
+            <div>
+                <img src="pix/maryadams.jpg" alt="Mary Adams">
+                <ul>
+                    <li><b>Office Phone:</b> x8234</li>
+                    <li><b>Email:</b> m.queen@company.com</li>
+                </ul>
+                <br clear="all">
+            </div>
+
+            <h3>Dr. Michael Rieber  (MBBS, DO)</h3>
+            <div>
+                <img src="pix/johnmatthews.jpg" alt="John Matthews">
+                <ul>
+                    <li><b>Office Phone:</b> x3082</li>
+                    <li><b>Email:</b> m.rieber@company.com</li>
+                </ul>
+                <br clear="all">
+            </div>
+
+            <h3>Dr. Eric Meissner  (MBBS, MBChB)</h3>
+            <div>
+                <img src="pix/samjackson.jpg" alt="Sam Jackson">
+                <ul>
+                    <li><b>Office Phone:</b> x3494</li>
+                    <li><b>Email:</b> e.meissner@company.com</li>
+                </ul>
+                <br clear="all">
+            </div>
+
+            <h3>Dr. Emma Falk  (BMed)</h3>
+            <div>
+                <img src="pix/jeniferapplethwaite.jpg" alt="Jenifer Applethwaite">
+                <ul>
+                    <li><b>Office Phone:</b> x9430</li>
+                    <li><b>Email:</b> e.falk@company.com</li>
+                </ul>
+                <br clear="all">
+            </div>
+        </div>
+    </body>
+</html>
